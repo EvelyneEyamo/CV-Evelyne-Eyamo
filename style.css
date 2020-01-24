@@ -1,0 +1,40 @@
+body
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+h1
+{
+    text-transform: uppercase;
+}
+
+h3
+{
+    background-color: rgba(92, 84, 84, 1);
+    color: #ffc800;
+    text-align: center;
+}
+
+#titre
+{
+    padding-left: 25px;
+}
+
+#bloc-page
+{
+    padding-left: 25px;
+}
+
+#lisere
+{
+    background-color: #ffc800;
+    max-width: 300px;
+}
+
+.marge
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+}
