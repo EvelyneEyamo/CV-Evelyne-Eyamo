@@ -1,12 +1,13 @@
 body
 {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Verdana, Arial, Helvetica, sans-serif;
     display: flex;
 }
 
 h1
 {
     text-transform: uppercase;
+    font-weight: 300;
 }
 
 h3
