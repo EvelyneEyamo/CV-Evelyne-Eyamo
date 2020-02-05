@@ -13,7 +13,7 @@ h1
 h3
 {
     background-color: rgba(92, 84, 84, 1);
-    color: #ffc800;
+    color: #fbcc02;
     text-align: center;
 }
 
@@ -29,7 +29,7 @@ h3
 
 #lisere
 {
-    background-color: #ffc800;
+    background-color: #fbcc02;
     max-width: 300px;
 }
 
@@ -38,4 +38,28 @@ h3
     padding-left: 25px;
     padding-right: 25px;
     text-align: justify;
+}
+
+#photo
+{
+    border-radius: 50%;
+    text-align: center;
+}
+
+#prenom
+{
+    color: #fbcc02;
+}
+
+@media (max-width: 900px)
+{
+    body 
+    {
+        flex-direction: column;
+    }
+
+    #lisere
+    {
+        max-width: 100vw; 
+    }
 }

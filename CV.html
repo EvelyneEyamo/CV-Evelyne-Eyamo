@@ -12,7 +12,7 @@
 <body>
 
     <div id="lisere">
-        <p><a href="cherries.jpg"><img src="cherries_mini.jpg" alt="cerises" /></a></p>
+        <p><a href="cherries.jpg"><img src="cherries_mini.jpg" alt="cerises" id="photo"/></a></p>
 
         <h3>CONTACT</h3>
         <p class="marge">Adresse <br>
@@ -20,14 +20,15 @@
             93000 Bobigny
         </p>
         <p class="marge">Téléphone<br>
-        07.67.13.97.81</p>
+            07.67.13.97.81</p>
         <p class="marge">E-mail <br>
-        evelyne.eyamo@gmail.com</p>
+            evelyne.eyamo@gmail.com</p>
 
         <h3>
             A PROPOS DE MOI
         </h3>
-        <p class="marge">La mise en page, à l'exception du liseré, doit être en valeur relative (pourcentages). Le contenu doit
+        <p class="marge">La mise en page, à l'exception du liseré, doit être en valeur relative (pourcentages). Le
+            contenu doit
             occuper tout l'espace en largeur, quelle que soit la largeur de la fenêtre.
 
             Vous devrez utiliser des balises sémantiques pour réaliser votre mise en page.
@@ -36,25 +37,40 @@
 
     </div>
     <div id="titre">
-        <h1>Evelyne Eyamo</h1>
+        <h1><span id="prenom">Evelyne</span> Eyamo</h1>
         <h2>Développeuse web</h2>
 
         <section id="bloc-page">
             <div>
                 <h2>Formation</h2>
-                <ul>
-                    <li>Déc 2019 - Juin 2020 : Développeur Web - Openclassrooms</li>
-                    <li>2007 : Bac Économique et Social</li>
-                </ul>
+                <table>
+                    <tr>
+                        <td>Déc 2019 - Juin 2020 </td>
+                        <td>Développeur Web - Openclassrooms</td>
+                    </tr>
+                    <tr>
+                        <td>2007</td>
+                        <td>Bac Économique et Social</td>
+                    </tr>
+                </table>
             </div>
 
             <div>
                 <h2>Expérience professionelle</h2>
-                <ul class="experience">
-                    <li>Mars 2017 - Mars 2018 : Conseillère de vente - Primark</li>
-                    <li>Jan 2015 - Jan 2016 : Agent administratif - CPAM</li>
-                    <li>Nov 2013 - Mars 2014 : Conseillère de vente - Le Panthéon</li>
-                </ul>
+                <table class="experience">
+                    <tr>
+                        <td>Mars 2017 - Mars 2018</td>
+                        <td>Conseillère de vente - Primark</td>
+                    </tr>
+                    <tr>
+                        <td>Jan 2015 - Jan 2016</td>
+                        <td>Agent administratif - CPAM</td>
+                    </tr>
+                    <tr>
+                        <td>Nov 2013 - Mars 2014</td>
+                        <td>Conseillère de vente - Le Panthéon</td>
+                    </tr>
+                </table>
             </div>
 
             <div>
@@ -63,9 +79,6 @@
             </div>
         </section>
     </div>
-
-
-
 
 </body>
 
