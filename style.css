@@ -8,6 +8,12 @@ h1
 {
     text-transform: uppercase;
     font-weight: 300;
+    margin-bottom: 5px; 
+}
+
+#bloc-page h2
+{
+    text-transform: uppercase;
 }
 
 h3
@@ -15,6 +21,18 @@ h3
     background-color: rgba(92, 84, 84, 1);
     color: #fbcc02;
     text-align: center;
+}
+
+#ligne-deco
+{
+    width: 75px;
+    border-top: 1px solid #fbcc02
+}
+
+.titre-section
+{
+    border-bottom: #fbcc02 solid 1px;
+    padding-bottom: 8px
 }
 
 #titre
@@ -46,9 +64,98 @@ h3
     text-align: center;
 }
 
+#photo-de-profil
+{
+    display: flex;
+    justify-content: center;
+}
+
 #prenom
 {
     color: #fbcc02;
+}
+
+
+.fa-graduation-cap, .fa-briefcase, .fa-wrench, .fa-circle, .fa-pencil-alt
+{
+    color: #fbcc02;
+    margin-right: 15px;
+}
+
+.fa-circle
+{
+    font-size: 0.5em
+}
+
+
+.single-item
+{
+    display: flex;
+}
+
+.date 
+{
+    width: 250px;
+    margin-right: 10px;
+}
+
+#developpeuse
+{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#developpeur-web
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#competences-developpeur
+{
+    margin: 0px;
+    list-style-type: none;
+}
+
+.fa-book-open, .fa-dumbbell, .fa-swimmer
+{
+    color: rgba(92, 84, 84, 1);
+
+}
+
+.recommandations
+{
+    display: flex;
+}
+
+#maxime
+{
+    margin-right: 20px;
+}
+
+#loisirs
+{
+    justify-content: center;
+    display: flex;
+}
+
+.loisirs-icone
+{
+    border-radius: 100%;
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+    border: rgba(92, 84, 84, 1) solid 2px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.etablissement
+{
+    font-weight: 500;
 }
 
 @media (max-width: 900px)

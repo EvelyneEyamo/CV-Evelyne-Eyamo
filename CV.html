@@ -4,15 +4,16 @@
 
 <head>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/13fe17e3fe.js" crossorigin="anonymous"></script>
     <title>Evelyne Eyamo</title>
 </head>
 
 <body>
 
     <div id="lisere">
-        <p><a href="cherries.jpg"><img src="cherries_mini.jpg" alt="cerises" id="photo"/></a></p>
+        <p id="photo-de-profil"><a href="cherries.jpg"><img src="cherries_mini.jpg" alt="cerises" id="photo" /></a></p>
 
         <h3>CONTACT</h3>
         <p class="marge">Adresse <br>
@@ -24,58 +25,83 @@
         <p class="marge">E-mail <br>
             evelyne.eyamo@gmail.com</p>
 
-        <h3>
-            A PROPOS DE MOI
-        </h3>
-        <p class="marge">La mise en page, à l'exception du liseré, doit être en valeur relative (pourcentages). Le
-            contenu doit
-            occuper tout l'espace en largeur, quelle que soit la largeur de la fenêtre.
+        <h3>A PROPOS DE MOI</h3>
+        <p class="marge">Après avoir travaillé dans la vente de prêt-à-porter, la téléprospection et l'administration,
+            je prends maintenant un virage professionnel pour me reconvertir dans le développement web.</p>
 
-            Vous devrez utiliser des balises sémantiques pour réaliser votre mise en page.
+        <h3>LOISIRS</h3>
+        <div id="loisirs">
+            <div class="loisirs-icone"><i class="fas fa-book-open"></i></div>
+            <div class="loisirs-icone"><i class="fas fa-dumbbell"></i></div>
+            <div class="loisirs-icone"><i class="fas fa-swimmer"></i></div>
+        </div>
 
-            Vérifiez bien que vous avez les éléments suivants :</p>
 
     </div>
     <div id="titre">
         <h1><span id="prenom">Evelyne</span> Eyamo</h1>
-        <h2>Développeuse web</h2>
+        <h2 id="developpeuse">Développeuse web</h2>
+        <div id="ligne-deco"></div>
 
         <section id="bloc-page">
             <div>
-                <h2>Formation</h2>
-                <table>
-                    <tr>
-                        <td>Déc 2019 - Juin 2020 </td>
-                        <td>Développeur Web - Openclassrooms</td>
-                    </tr>
-                    <tr>
-                        <td>2007</td>
-                        <td>Bac Économique et Social</td>
-                    </tr>
-                </table>
+                <h2 class="titre-section"><i class="fas fa-graduation-cap"></i>Formation</h2>
+                <div class="list-item">
+                    <div class="single-item">
+                        <p class="date"><i class="fas fa-circle"></i>Déc 2019 - Juin 2020 </p>
+                        <div id="developpeur-web">
+                            <p><span class="etablissement">Openclassrooms</span><br>
+                                Developpeur web<br>
+                                Cette formation apprend notamment à
+                                <ul id="competences-developpeur">
+                                    <li>découper, assembler et intégrer tous les éléments d’une maquette graphique en
+                                        HTML5 et CSS ;</li>
+                                    <li>ajouter du contenu audio et vidéo en HTML5 ;</li>
+                                    <li>animer les pages web avec CSS3 ;</li>
+                                    <li>appliquer les standards du web et les normes en vigueur </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-item">
+                        <p class="date"><i class="fas fa-circle"></i>2007</p>
+                        <p>Bac Économique et Social</p>
+                    </div>
+                </div>
             </div>
 
             <div>
-                <h2>Expérience professionelle</h2>
-                <table class="experience">
-                    <tr>
-                        <td>Mars 2017 - Mars 2018</td>
-                        <td>Conseillère de vente - Primark</td>
-                    </tr>
-                    <tr>
-                        <td>Jan 2015 - Jan 2016</td>
-                        <td>Agent administratif - CPAM</td>
-                    </tr>
-                    <tr>
-                        <td>Nov 2013 - Mars 2014</td>
-                        <td>Conseillère de vente - Le Panthéon</td>
-                    </tr>
-                </table>
+                <h2 class="titre-section"><i class="fas fa-briefcase"></i>Expérience professionelle</h2>
+                <div class="list-item" id="experience">
+                    <div class="single-item">
+                        <p class="date"><i class="fas fa-circle"></i>Mars 2017 - Mars 2018</p v>
+                        <p><span class="etablissement">Primark</span><br>
+                            Conseillère de vente</p>
+                    </div>
+                    <div class="single-item">
+                        <p class="date"><i class="fas fa-circle"></i>Jan 2015 - Jan 2016</p>
+                        <p><span class="etablissement">CPAM</span><br>
+                            Agent administratif</p>
+                    </div>
+                    <div class="single-item">
+                        <p class="date"><i class="fas fa-circle"></i>Nov 2013 - Mars 2014</p>
+                        <p><span class="etablissement">Le Panthéon</span><br>
+                            Conseillère de vente</p>
+                    </div>
+                </div>
             </div>
 
             <div>
-                <h2>Compétences</h2>
-                <p class="competences">HTML5, CSS et Javascript</p>
+                <h2 class="titre-section"><i class="fas fa-pencil-alt"></i>Recommandations</h2>
+                <div class="recommandations">
+                    <p id="maxime">Maxime Kieman<br>
+                        06.33.25.36.42<br>
+                        maxime.kieman@gmail.com</p>
+
+                    <p>Laurent Dubois<br>
+                        07.42.25.63.98<br>
+                        laurent.dubois@gmail.com</p>
+                </div>
             </div>
         </section>
     </div>
