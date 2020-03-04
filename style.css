@@ -139,6 +139,11 @@ h3
     display: flex;
 }
 
+#a-propos-de-moi
+{
+    flex-grow: 1;
+}
+
 .loisirs-icone
 {
     border-radius: 100%;
@@ -168,5 +173,18 @@ h3
     #lisere
     {
         max-width: 100vw; 
+    }
+}
+
+@media (max-width: 768px)
+{
+    body
+    {
+        flex-direction: column-reverse;
+    }
+
+    #lisere
+    {
+        max-width: 100vw;
     }
 }
